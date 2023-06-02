@@ -5,7 +5,7 @@ const Calendar = () => {
   return (
     <div className="bg-white rounded-lg mt-4 p-5">
       <div className="flex justify-between">
-        <h1 className="text-1xl font-bold">Today's schedule</h1>
+        <h1 className="text-1xl font-bold">Todays schedule</h1>
         <p className="flex text-slate-400 text-sm">
           See All <AiOutlineRight className="mt-1" />
         </p>

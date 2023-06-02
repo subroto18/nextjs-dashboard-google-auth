@@ -3,6 +3,7 @@ import { AiOutlineSearch, AiOutlineBell } from "react-icons/Ai";
 import { BiUserCircle } from "react-icons/Bi";
 import { useSession, signOut } from "next-auth/react";
 import { useState } from "react";
+import Image from "next/image";
 export default function Header() {
   const { data: session } = useSession();
   const [isLogoutVisible, setIsLogoutVisible] = useState(false);
@@ -22,13 +23,17 @@ export default function Header() {
 
         {session ? (
           <div className="relative">
-            <img
+            <Image
+              width="20"
+              height="20"
+              alt={session.user.name}
               onClick={() => setIsLogoutVisible(!isLogoutVisible)}
+              onBlur={() => setIsLogoutVisible(false)}
               src={session.user.image}
               className="h-8 w-8 rounded-full mt-2 cursor-pointer"
             />
             {isLogoutVisible && (
-              <div className="bg-white px-4 py-3 shadow-lg rounded-lg mt-2 absolute right-[9px] cursor-pointer">
+              <div className=" bg-white px-4 py-3 shadow-lg rounded-lg mt-2 absolute right-[9px] cursor-pointer">
                 <ul>
                   <li onClick={() => signOut("google")} className="font-bold">
                     LogOut

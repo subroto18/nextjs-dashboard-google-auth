@@ -2,12 +2,9 @@
 import { FcGoogle } from "react-icons/Fc";
 import { AiFillApple } from "react-icons/Ai";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { signIn } from "next-auth/react";
 
 export const login = () => {
-  const { session } = useSession();
-
   return (
     <div className="md:grid  md:grid-cols-3 ">
       <div class="hidden bg-black h-screen md:flex justify-center items-center">
