@@ -74,7 +74,7 @@ export const login = () => {
               </div>
             </form>
             <p className="text-center text-gray-500 text-xs">
-              Don't have an account?
+              Dont have an account?
               <Link
                 className="inline-block align-baseline  text-sm text-blue-500 hover:text-blue-800 ml-2"
                 href="/"
