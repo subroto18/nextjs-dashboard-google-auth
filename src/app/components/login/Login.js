@@ -1,6 +1,6 @@
 "use client";
-import { FcGoogle } from "react-icons/Fc";
-import { AiFillApple } from "react-icons/Ai";
+import { FcGoogle } from "react-icons/fc";
+import { AiFillApple } from "react-icons/ai";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
 

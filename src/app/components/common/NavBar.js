@@ -1,7 +1,7 @@
 "use client";
-import { AiOutlinePieChart } from "react-icons/Ai";
-import { LuTags, LuCalendarClock, LuSettings } from "react-icons/Lu";
-import { BiUserCircle } from "react-icons/Bi";
+import { AiOutlinePieChart } from "react-icons/ai";
+import { LuTags, LuCalendarClock, LuSettings } from "react-icons/lu";
+import { BiUserCircle } from "react-icons/bi";
 
 export default function NavBar() {
   return (

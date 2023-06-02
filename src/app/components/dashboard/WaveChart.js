@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { AiOutlineDown } from "react-icons/Ai";
+import { AiOutlineDown } from "react-icons/ai";
 import { Chart } from "react-google-charts";
 
 export const data = [

@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineRight } from "react-icons/Ai";
+import { AiOutlineRight } from "react-icons/ai";
 
 const Calendar = () => {
   return (

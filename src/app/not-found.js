@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 export default function NotFound() {
   const { push } = useRouter();
+
   useEffect(() => {
     let timer = setTimeout(() => {
       push("/");

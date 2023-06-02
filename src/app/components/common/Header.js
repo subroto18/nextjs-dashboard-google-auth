@@ -1,6 +1,6 @@
 "use client";
-import { AiOutlineSearch, AiOutlineBell } from "react-icons/Ai";
-import { BiUserCircle } from "react-icons/Bi";
+import { AiOutlineSearch, AiOutlineBell } from "react-icons/ai";
+import { BiUserCircle } from "react-icons/bi";
 import { useSession, signOut } from "next-auth/react";
 import { useState } from "react";
 import Image from "next/image";

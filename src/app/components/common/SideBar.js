@@ -1,6 +1,6 @@
 "use client";
-import { GiHamburgerMenu } from "react-icons/Gi";
-import { FaTimes } from "react-icons/Fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaTimes } from "react-icons/fa";
 import NavBar from "./NavBar";
 import { useState } from "react";
 

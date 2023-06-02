@@ -1,7 +1,7 @@
 import React from "react";
-import { GoDesktopDownload } from "react-icons/Go";
-import { BsTags } from "react-icons/Bs";
-import { AiOutlineLike, AiOutlineUsergroupDelete } from "react-icons/Ai";
+import { GoDesktopDownload } from "react-icons/go";
+import { BsTags } from "react-icons/bs";
+import { AiOutlineLike, AiOutlineUsergroupDelete } from "react-icons/ai";
 
 import Card from "./Card";
 const DisPlayCards = () => {
